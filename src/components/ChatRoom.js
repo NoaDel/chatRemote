@@ -99,6 +99,7 @@ function ChatRoom(props) {
             userRef.update({status: 'offline'});
           }
         });
+        
     
         history.goBack();
     }
